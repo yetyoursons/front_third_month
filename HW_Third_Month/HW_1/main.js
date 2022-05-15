@@ -14,17 +14,3 @@ buttonOnclick.addEventListener('click', () => {
 });
 
 
-
-const move = document.querySelector('.block2')
-
-let num = 0
-
-const down = function () {
-    num+= 10
-    move.style.top = `${num}px`;
-    if (num<10){
-        down()
-    }
-}
-
-move.addEventListener('click',down)

@@ -10,4 +10,3 @@ phoneClick.addEventListener('click', () => {
     console.log('ok');
   }
 });
-
